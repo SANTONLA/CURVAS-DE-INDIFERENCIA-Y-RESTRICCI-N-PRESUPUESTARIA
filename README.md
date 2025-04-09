@@ -1,29 +1,99 @@
-# Proyecto de Curvas de Utilidad e Indiferencia
+--
 
-Este proyecto tiene como objetivo modelar y visualizar las **curvas de utilidad e indiferencia** en el contexto de la teoría económica.
-Las curvas de utilidad e indiferencia son representaciones gráficas que muestran todas las combinaciones de dos bienes que brindan el mismo nivel de satisfacción o utilidad a un consumidor.
+# 📈 Proyecto de Curvas de Utilidad e Indiferencia
+
+Este proyecto tiene como objetivo modelar y visualizar las **curvas de utilidad e indiferencia** en el contexto de la teoría económica. 
+Las curvas de utilidad e indiferencia son representaciones gráficas que muestran todas las combinaciones de dos bienes que brindan el mismo nivel de satisfacción o utilidad a un consumidor. 
 Este modelo es fundamental para entender las decisiones de consumo y preferencia en economía.
 
-## Funcionalidades
+## ✨ Funcionalidades
 
-- **Generación de curvas de utilidad**: Capacidad de crear curvas de utilidad basadas en diferentes funciones de utilidad.
-- **Visualización de curvas de indiferencia**: Muestra gráficamente las combinaciones de bienes que proporcionan el mismo nivel de satisfacción al consumidor.
-- **Análisis interactivo**: Permite ajustar los parámetros de la función de utilidad y observar cómo cambian las curvas de indiferencia.
-- **Soporte para diferentes tipos de funciones de utilidad**: Lineales, Cobb-Douglas, CES (Elasticidad de Sustitución Constante), entre otras.
+- 📊 **Generación de curvas de utilidad**: Crea curvas basadas en distintas funciones matemáticas.
+- 🌀 **Visualización de curvas de indiferencia**: Representa gráficamente la utilidad constante para un consumidor.
+- 🎛️ **Análisis interactivo**: Permite ajustar parámetros y observar los cambios en tiempo real.
+- 🧮 **Tipos de funciones de utilidad compatibles**:
+  - Lineales
+  - Cobb-Douglas
+  - CES (Elasticidad de Sustitución Constante)
 
-## Requisitos
-
-Para ejecutar el proyecto necesitarás tener instalados los siguientes paquetes en tu entorno de Python:
+## ⚙️ Requisitos
 
 - `numpy`
 - `matplotlib`
 - `scipy`
 
-Puedes instalar los paquetes necesarios utilizando pip:
+Instalación de dependencias:
 
 ```bash
 pip install numpy matplotlib scipy
 ```
+
+## 🚀 Instalación
+
+1. 🔽 Clona este repositorio:
+
+```bash
+git clone https://github.com/tu-usuario/curvas-utilidad-indiferencia.git
+```
+
+2. 📂 Entra al directorio:
+
+```bash
+cd curvas-utilidad-indiferencia
+```
+
+3. 📦 Instala las dependencias:
+
+```bash
+pip install -r requirements.txt
+```
+
+4. ▶️ Ejecuta el programa:
+
+```bash
+python main.py
+```
+
+## 🧠 Uso
+
+Puedes personalizar los parámetros desde `main.py` para ver diferentes curvas:
+
+📐 Ejemplos de funciones de utilidad:
+- `U(x, y) = ax + by` (Lineal)
+- `U(x, y) = x^a * y^b` (Cobb-Douglas)
+- `U(x, y) = (a * x^r + b * y^r)^(1/r)` (CES)
+
+## 🌈 Ejemplos de Visualización
+
+> 💡 *Estos gráficos se generan al ejecutar el código con distintos parámetros.*
+
+### 🟦 Curva de Utilidad Lineal
+
+![Curva de Utilidad Lineal](images/curva_utilidad_lineal.png)
+
+### 🟩 Curva de Utilidad Cobb-Douglas
+
+![Curva de Utilidad Cobb-Douglas](images/curva_utilidad_cobbdouglas.png)
+
+### 🟧 Curva de Utilidad CES
+
+![Curva de Utilidad CES](images/curva_utilidad_ces.png)
+
+## 🤝 Contribuciones
+
+¿Quieres colaborar?
+
+1. Haz un **fork** del repositorio.
+2. Crea una nueva **rama** para tus cambios.
+3. Haz tus **commits** con claridad.
+4. Abre un **Pull Request** explicando tus aportes.
+
+## 📜 Licencia
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más información.
+
+---
+
 
 ## Instalación
 
@@ -90,4 +160,4 @@ Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE](L
 
 ---
 
-Este README proporciona una descripción general del proyecto, cómo instalarlo, cómo usarlo y algunos ejemplos gráficos de las curvas. Si necesitas que añada más detalles o personalice alguna parte, avísame y lo ajustamos.
+Este README proporciona una descripción general del proyecto, cómo instalarlo, cómo usarlo y algunos ejemplos gráficos de las curvas. 
