@@ -77,7 +77,7 @@ Puedes personalizar los parámetros desde `main.py` para ver diferentes curvas:
 
 ### 🟧 Curva de Utilidad CES
 
-![Curva de Utilidad CES](images/curva_utilidad_ces.png)
+![Curva de Utilidad CES](curvas CES.JPG)
 
 ## 🤝 Contribuciones
 
