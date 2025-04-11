@@ -69,7 +69,7 @@ Puedes personalizar los parámetros desde `main.py` para ver diferentes curvas:
 
 ### 🟦 Curva de Utilidad Lineal
 
-![Curva de Utilidad Lineal](images/curva_utilidad_lineal.png)
+![Curva de Utilidad Lineal](funciones de utilidad lineal.JPG)
 
 ### 🟩 Curva de Utilidad Cobb-Douglas
 
